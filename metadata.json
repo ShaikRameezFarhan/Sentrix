@@ -1,0 +1,6 @@
+{
+  "name": "SENTRIX",
+  "description": "AI-Powered Digital Risk Protection Platform by Team CIPHER for Kampus.VC",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

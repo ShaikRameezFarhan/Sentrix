@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Outer Shield Crest -->
+    <path
+        android:pathData="M54,24 L78,33 C78,57 68,74 54,84 C40,74 30,57 30,33 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="30"
+                android:startY="24"
+                android:endX="78"
+                android:endY="84"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#D7FF00" />
+                <item android:offset="1.0" android:color="#00D4E8" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Inner Shield Inset -->
+    <path
+        android:pathData="M54,28.5 L73.5,35.8 C73.5,55.5 65.5,69.5 54,78 C42.5,69.5 34.5,55.5 34.5,35.8 Z"
+        android:fillColor="#0B0D0F" />
+
+    <!-- Center Iris Radar Ring -->
+    <path
+        android:pathData="M54,42 C47.37,42 42,47.37 42,54 C42,60.63 47.37,66 54,66 C60.63,66 66,60.63 66,54 C66,47.37 60.63,42 54,42 Z M54,46 C58.42,46 62,49.58 62,54 C62,58.42 58.42,62 54,62 C49.58,62 46,58.42 46,54 C46,49.58 49.58,46 54,46 Z"
+        android:fillColor="#00D4E8" />
+
+    <!-- Center Core / Cipher Spark -->
+    <path
+        android:pathData="M54,49 C51.24,49 49,51.24 49,54 C49,56.76 51.24,59 54,59 C56.76,59 59,56.76 59,54 C59,51.24 56.76,49 54,49 Z"
+        android:fillColor="#D7FF00" />
+
+    <!-- Top Security Node -->
+    <path
+        android:pathData="M54,22 C55.65,22 57,20.65 57,19 C57,17.35 55.65,16 54,16 C52.35,16 51,17.35 51,19 C51,20.65 52.35,22 54,22 Z"
+        android:fillColor="#D7FF00" />
+</vector>
